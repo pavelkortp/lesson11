@@ -1,0 +1,92 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.flag{
+width: 600px;
+height: 400px;
+margin: 0 auto;
+border: 2px solid black;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.circle{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.instagram{
+    width: 400px;
+    height: 400px;
+    border-radius: 35%;
+    background-image: radial-gradient(circle at 30% 100%, #fed373 9%, #f15245 30%, #d92e7f 62%, #515ecf 85%, #9b36b7);
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    left: 0;
+}
+
+.lines{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    left: 0;
+    border: 30px solid white;
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+
+}
+.insta-circle:{
+width: 150px;
+height: 150px;
+border: 28px solid white;
+border-radius: 50%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+margin: 0 auto;
+}
+.insta-circle::before{
+content: ;
+background: white;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+position: absolute;
+top: -50px;
+right: -60px;
+}
+
+
+
+
+
+.flag1{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle1{
+    width: 350px;
+    height: 100px;
+    background-color: white;
+}
+.rectangle2{
+    width: 100px;
+    height: 350px;
+    background-color: white;
+    
+}
